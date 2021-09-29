@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Splitter</title>
+  </head>
+  <body>
+    <header>
+      <h1>Splitter</h1>
+    </header>
+    <main>
+      <ul>
+        <li>
+          <form action="">
+            <label for="bill-input">Bill</label><br />
+            <input type="number" id="bill-input" name="Bill" placeholder="0" />
+          </form>
+        </li>
+        <li>
+          <label for="Select-tip">Select Tip %</label>
+          <ul>
+            <!--hier kommen die buttons mit dem Tip rein, 6 stk-->
+            <li><a href="5%">5%</a></li>
+            <li><a href="10%">10%</a></li>
+            <li><a href="15%">15%</a></li>
+            <li><a href="25%">25%</a></li>
+            <li><a href="50%">50%</a></li>
+            <li><a href="custome">Custom</a></li>
+          </ul>
+        </li>
+        <li>
+          <form action="">
+            <label for="Number-of-people">Number of People</label><br />
+            <input
+              type="number"
+              id="Number-of-people"
+              name="Number of people"
+              placeholder="0"
+            />
+          </form>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <!--Wie geht das mit dem Output Type?? wo kommt der Input her?-->
+          <label for="Tip-amount">Tip Amount</label>
+          <small>/ Person</small>
+          <output id="Tip-amount" name="Tip-amount"> </output>
+        </li>
+        <li>
+          <label for="Total">Total</label>
+          <small>/ Person</small>
+          <output id="Total" name="Total"> </output>
+        </li>
+      </ul>
+      <!--woher weiß der Button was er resetten soll?-->
+      <button name="reset">Reset</button>
+    </main>
+  </body>
+</html>
