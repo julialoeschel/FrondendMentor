@@ -1,6 +1,5 @@
-#Überschrift 1
+# Überschrift
 
-##Überschrift 2
+## Überschrift
 
-text
 text
